@@ -17,6 +17,13 @@ body {
     font-weight: 300;
 }
 
+nav {
+    font-size: 1.3em;
+    align: right;
+    margin: 2rem;
+    color: #4D5A6B;
+}
+
 body, input {
     font-family: 'Teko', sans-serif;
 }
@@ -207,6 +214,21 @@ main {
     order: 1;
     flex-basis: 35%;
     margin: 10px 0 0;
+}
+
+/* alterar */
+
+.alterar {
+    margin: 2px;
+    width: 140px;
+}
+
+.botoes {
+   position: relative;
+   left: 5%;
+   right: 5%;
+   bottom: 10%;
+   display: flex;
 }
 
 @media screen and (max-width: 1600px) {
